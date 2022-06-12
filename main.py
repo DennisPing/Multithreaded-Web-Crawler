@@ -144,7 +144,7 @@ def main() -> None:
 
     end = time.time()
     print(f"Found 5 flags in {str(round(end - start, 3))} seconds")
-    print(f"Collected {str(len(SECRET_FLAGS))} secret flags")
+    print(f"Searched through {str(len(FOUND))} urls")
 
 
 if __name__ == "__main__":
