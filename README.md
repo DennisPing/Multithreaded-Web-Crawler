@@ -3,7 +3,7 @@ A multithreaded web crawler for NEU Fakebook website
 
 ## Overview
 
-I wanted to crawl/scrape the NEU Fakebook website as fast as possible using any tools at my disposal. Depending on the random distribution of the 5 hidden keys, crawling can take between 30 seconds to 90 seconds. It launches 10 worker threads and utilizes basic mutexes in order to be thread safe.
+I wanted to crawl/scrape the NEU Fakebook website as fast as possible using any tools at my disposal. Depending on the random distribution of the 5 hidden keys, crawling can take between 30 to 90 seconds. It launches 10 worker threads and utilizes basic mutexes in order to be thread safe.
 
 ## Requirements
 
@@ -29,7 +29,6 @@ positional arguments:
 
 options:
   -h, --help  show this help message and exit
-
 ```
 
 ## Design
